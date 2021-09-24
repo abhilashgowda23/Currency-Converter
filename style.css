@@ -1,0 +1,77 @@
+body {
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+  
+.heading {
+    font-family: 'normal', 'Times New Roman', Times, serif;
+    margin: 35px auto 20px;
+    color: khaki;
+}
+  
+hr {
+    border-top: 8px solid rgb(241, 139, 139);
+    width: 50%;
+    margin-bottom: 55px;
+}
+  
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(97, 88, 88, 0.5);
+    color: white;
+}
+  
+label {
+    font-size: 20px;
+}
+  
+.btn {
+    width: 200px;
+    color: black;
+    background-color: lightcyan;
+}
+  
+#finalAmount {
+    font-family: 'Lobster', cursive;
+    display: none;
+    margin: 50px auto;
+}
+  
+#finalAmount h2 {
+    font-size: 50px;
+}
+  
+.finalValue {
+    font-family: fantasy;
+}
+  
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+    .main {
+        width: 100%;
+    }
+}
+h2{
+    color: blue;
+    font-family: initial;
+}
+  
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    hr {
+        width: 75%;
+    }
+    #finalAmount h2, .finalValue {
+        font-size: 40px;
+    }
+}
